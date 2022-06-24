@@ -1,0 +1,89 @@
+input[type="email"],
+input[type="password"] {
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+button[type="submit"] {
+  margin-top: 20px;
+  background: #5048e5;
+  border-radius: 4px;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background: #6cf0c2;
+  color: rgb(0, 0, 0);
+}
+
+button[type="close"] {
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  background: #d0d5d3;
+  border: 1px solid #01d28e;
+  color: #fff;
+  padding: 10px 20px;
+}
+button[type="close"]:hover {
+  background: #da8e8e;
+}
+
+.list-container {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.title {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+}
+
+.ant-modal-header {
+  text-align: center;
+  text-decoration: solid;
+}
+
+.footer-messages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: baseline;
+  gap: 10px;
+}
+
+.userName {
+  color: white;
+}

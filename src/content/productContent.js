@@ -1,0 +1,38 @@
+export const ProductContent = {
+  createProduct: {
+    page: "createProduct",
+    title: "New Product",
+    name: "Product name",
+    description: "Product Description",
+    category: "Category",
+    price: "Price",
+    quantity: "In Stock Quantity",
+    imgLink: "Add Image Link",
+    uploadBtn: "Upload",
+    addBtn: "Add Product",
+    success: "Create Product Successful!",
+  },
+  updateProduct: {
+    page: "updateProduct",
+    title: "Edit Product",
+    name: "Product name",
+    description: "Product Description",
+    category: "Category",
+    price: "Price",
+    quantity: "In Stock Quantity",
+    imgLink: "Add Image Link",
+    uploadBtn: "Upload",
+    addBtn: "Update Product",
+    success: "Update Product Successful!",
+  },
+  productDetail: {
+    title: "Product Detail",
+    addBtn: "Add To Cart",
+    editBtn: "Edit",
+  },
+  categories: [
+    { name: "Category1" },
+    { name: "Category2" },
+    { name: "Category3" },
+  ],
+};
